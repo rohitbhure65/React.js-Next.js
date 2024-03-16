@@ -8,6 +8,7 @@ export default function Home() {
   }
   return (
     <>
+      {/* UseState */}
       <h1 className="text-5xl font-bold">my total marks is {marks}</h1>
       <button onClick={()=>{setMarks(66);}} className="bg-gray-400 px-5 py-2 rounded mt-10">update</button>
     </>
